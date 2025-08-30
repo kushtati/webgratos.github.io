@@ -1,0 +1,82 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: arial;
+    font-size: 21px;
+    border-bottom: 5px solid rgb(130, 186, 239);
+
+}
+.logo h1{  
+    padding-left: 10px;
+    margin:5px 5px;
+    font-size: 40px;
+ font-weight: normal;
+text-align: center;
+}
+.logo p{
+    text-align: center;
+    margin:0 15px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+}
+.main-nav ul{
+    list-style: none;
+    display: flex;
+    gap: 80px;
+    padding-right: 60px;
+}
+.main-nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: normal;
+}
+.main-nav a:hover{
+    border-bottom: 5px solid rgb(130, 186, 239);
+}
+a{
+    color: rgb(9, 100, 245);
+    
+}
+.container{
+    margin: 0 10em;
+    font-size: 21px;
+    font-family: arial;
+}
+.container h2{
+    text-align: left;
+    margin: 50px 0;
+    padding: 10px 15px;
+    font-size: 2em;
+    border-left: 5px solid rgb(154, 226, 176);
+}
+.first-child{
+    font-weight: normal;
+    font-size: 21px;
+    letter-spacing: normal;
+}
+.second-child{
+    font-weight: normal;
+    font-size: 21px;
+    letter-spacing: normal;
+}
+.third-child{
+    font-weight: normal;
+    font-size: 21px;
+    letter-spacing: normal;
+}
+blockquote{
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: normal;
+}
+footer{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.icons img{
+    width: 54 57px;
+    margin: 0;
+    padding: 0;
+}
